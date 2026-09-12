@@ -12,7 +12,7 @@
     <style>
         /* ========== ROOT VARIABLES ========== */
         :root {
-            --bg: #f5f7fb;
+            --bg: #fafaf8;
             --bg-card: #ffffff;
             --primary: #1a1a2e;
             --primary-light: #2d2d44;
@@ -21,7 +21,7 @@
             --accent-dark: #c05a3e;
             --muted: #6b6b7a;
             --muted-light: #a0a0b0;
-            --surface: #eef2f7;
+            --surface: #f0efed;
             --success: #2a9d8f;
             --warning: #e9c46a;
             --radius: 16px;
@@ -1116,25 +1116,7 @@
                 font-size: 13px;
             }
         }
-    
-
-/* User-friendly soft background and cleaner cards */
-main { background: transparent; }
-.section { position: relative; }
-.section:nth-child(even) { background: rgba(255, 255, 255, 0.35); }
-.cat-card,
-.product-card,
-.deal-wrap,
-.testimonial-card {
-    border: 1px solid rgba(26, 26, 46, 0.06);
-    box-shadow: 0 6px 24px rgba(26, 26, 46, 0.05);
-}
-.cat-card:hover,
-.product-card:hover,
-.testimonial-card:hover {
-    box-shadow: 0 14px 35px rgba(26, 26, 46, 0.10);
-}
-</style>
+    </style>
 </head>
 
 <body>
